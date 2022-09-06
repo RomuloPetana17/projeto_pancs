@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Home">
+            <menu>
+                <item android:id="@+id/mPlants" android:checked="true" android:icon="@drawable/wolf" android:title="Plantas"/>
+                <item android:id="@+id/mHome" android:checked="true" android:icon="@drawable/knife" android:title="Home"/>
+                <item android:id="@+id/mHelp" android:checked="true" android:icon="@drawable/luffy" android:title="Ajuda"/>
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Tools">
+            <menu>
+                <item android:id="@+id/mSettings" android:icon="@drawable/ic_baseline_settings" android:title="Settings"/>
+                <item android:id="@+id/mShare" android:icon="@drawable/ic_baseline_share" android:title="Share"/>
+            </menu>
+        </item>
+    </group>
+</menu>
